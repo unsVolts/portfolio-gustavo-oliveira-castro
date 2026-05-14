@@ -1,15 +1,69 @@
-# 🎨 Blobmaker
+🎨 Blobmaker
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white)
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
+https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
 
-## 📝 Descrição do Projeto
-O **Formador de Formas** é um aplicativo interativo de alta performance que permite criar e personalizar formas geométricas com cores, estilos e animações únicas. Inspirado em ferramentas de design como o *blobmaker.app*, o projeto oferece um ambiente criativo onde designers e desenvolvedores podem explorar combinações visuais de forma instantânea.
+📝 Descrição do Projeto
 
+Blobmaker é uma aplicação web interativa desenvolvida como exercício de engenharia reversa do aplicativo Blobmaker. O objetivo foi recriar a lógica de geração de formas orgânicas do tipo blob – aquelas formas suaves, irregulares e com aspecto “gorduroso” – oferecendo controles precisos sobre número de vértices, complexidade, suavidade, cores e estilos visuais.
+
+---
+
+🚀 Tecnologias Utilizadas
+
+· React 19 + TypeScript 5.8 – interface declarativa e tipagem estática
+· Vite 6 – build e desenvolvimento ultrarrápido
+· TailwindCSS 4 – estilização utilitária moderna
+· Framer Motion – animações fluidas
+· Lucide React – ícones leves
+· clsx + tailwind-merge – composição de classes condicionais
+
+---
+
+📊 Funcionalidades e Diferenciais
+
+· Geração de formas blob em tempo real
+    Sliders para controle de número de vértices, irregularidade e suavidade – atualização instantânea.
+· Personalização completa de cores
+    Preenchimento sólido, gradientes lineares/radiais e cor da borda.
+· Exportação SVG
+    Copia o código SVG para a área de transferência ou faz download do arquivo .svg.
+· Modo aleatório
+    Botão que randomiza todos os parâmetros da forma, gerando blobs únicos a cada clique.
+· Design responsivo e animado
+    Interface adaptada para mobile/desktop com microinterações suaves.
+· Código limpo e tipado
+    Todo o projeto escrito em TypeScript, com componentes reutilizáveis e lógica de desenho SVG modular.
+
+---
+
+🔧 Como Executar
+
+1. Clone o repositório
+   ```bash
+   git clone https://github.com/seu-usuario/formador-de-formas.git
+   cd formador-de-formas
+   ```
+2. Instale as dependências
+   ```bash
+   npm install
+   ```
+3. Execute o servidor de desenvolvimento
+   ```bash
+   npm run dev
+   ```
+   Acesse http://localhost:3000
+4. Build de produção
+   ```bash
+   npm run build
+   npm run preview
+   ```
+
+---
+
+Voltar ao início
 Diferencial do projeto: integração com a API **Google Gemini**, que fornece sugestões inteligentes de paletas de cores, variações de forma e estilos criativos, elevando a experiência do usuário com auxílio de IA generativa. As formas geradas podem ser exportadas como SVG otimizado ou código pronto para uso em projetos web.
 
 ---
