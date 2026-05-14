@@ -86,11 +86,11 @@ Diferencial do projeto: integração com a API **Google Gemini**, que fornece su
 * **Design Responsivo:** Interface totalmente adaptada para desktop e tablets.
 
 ## 🔧 Como Executar
-1. Clone este repositório.
+1. Clone o repositório.
 2. Instale as dependências: `npm install`.
-3. Configure sua chave da API Gemini:
-   - Crie um arquivo `.env` na raiz do projeto.
-   - Adicione: `GEMINI_API_KEY=sua_chave_aqui`
+3. Configure as variáveis de ambiente (se houver):
+   - Crie um arquivo `.env` na raiz.
+   - Adicione as chaves necessárias.
 4. Execute o servidor de desenvolvimento: `npm run dev`.
 5. Para gerar a versão de produção: `npm run build`.
 
