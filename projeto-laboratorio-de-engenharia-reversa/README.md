@@ -3,11 +3,13 @@
 https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
-https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white
+https://img.shields.io/badge/Lucide_React-5E5E5E?style=for-the-badge&logo=lucide&logoColor=white
 
 📝 Descrição do Projeto
 
-Blobmaker é uma aplicação web interativa desenvolvida como exercício de engenharia reversa do aplicativo Blobmaker. O objetivo foi recriar a lógica de geração de formas orgânicas do tipo blob – aquelas formas suaves, irregulares e com aspecto “gorduroso” – oferecendo controles precisos sobre número de vértices, complexidade, suavidade, cores e estilos visuais.
+Blobmaker é uma aplicação web interativa desenvolvida como exercício de engenharia reversa do aplicativo original Blobmaker. O objetivo foi recriar a lógica de geração de formas orgânicas do tipo blob – aquelas formas suaves, irregulares e com aspecto orgânico – oferecendo controles precisos sobre número de vértices, complexidade, suavidade, cores e estilos visuais.
 
 ---
 
@@ -41,58 +43,15 @@ Blobmaker é uma aplicação web interativa desenvolvida como exercício de enge
 
 🔧 Como Executar
 
-1. Clone o repositório
-   ```bash
-   git clone https://github.com/seu-usuario/formador-de-formas.git
-   cd formador-de-formas
-   ```
-2. Instale as dependências
-   ```bash
-   npm install
-   ```
-3. Execute o servidor de desenvolvimento
-   ```bash
-   npm run dev
-   ```
-   Acesse http://localhost:3000
-4. Build de produção
-   ```bash
-   npm run build
-   npm run preview
-   ```
-
----
-
-Voltar ao início
-Diferencial do projeto: integração com a API **Google Gemini**, que fornece sugestões inteligentes de paletas de cores, variações de forma e estilos criativos, elevando a experiência do usuário com auxílio de IA generativa. As formas geradas podem ser exportadas como SVG otimizado ou código pronto para uso em projetos web.
-
----
-
-## 🚀 Tecnologias Utilizadas
-* **Frontend:** React 19 + TypeScript + Vite
-* **IA Generativa:** Google Gemini API (`@google/genai`)
-* **Estilização:** Tailwind CSS (utilitária + design responsivo)
-* **Animações:** Framer Motion (transições suaves e morphing)
-* **Ícones:** Lucide-React
-* **Servidor (desenvolvimento):** Express (para roteamento simples)
-* **Exportação:** Blob API (download de arquivos) e Clipboard API (cópia de código SVG)
-
-## 📊 Funcionalidades e Diferenciais
-* **Motor de Formas Geométricas:** Geração dinâmica de polígonos regulares, estrelas e formas orgânicas por curvas de Bézier cúbicas.
-* **Personalização Visual:** Controle de cor de preenchimento, gradiente, traçado (stroke), opacidade e sombras via Tailwind.
-* **Sugestões com IA:** Ao clicar em “Inspirar com Gemini”, o app consulta a API da Google Gemini para recomendar uma combinação de cor + estilo + complexidade da forma.
-* **Morphing Reativo:** Transições animadas entre estados de forma e cor com física de mola (spring physics).
-* **Exportação Limpa:** Código SVG otimizado, sem atributos desnecessários, com `viewBox="0 0 200 200"` e pronto para uso em Figma, Adobe XD ou código HTML.
-* **Design Responsivo:** Interface totalmente adaptada para desktop e tablets.
-
-## 🔧 Como Executar
 1. Clone o repositório.
-2. Instale as dependências: `npm install`.
+2. Instale as dependências: npm install.
 3. Configure as variáveis de ambiente (se houver):
-   - Crie um arquivo `.env` na raiz.
-   - Adicione as chaves necessárias.
-4. Execute o servidor de desenvolvimento: `npm run dev`.
-5. Para gerar a versão de produção: `npm run build`.
+   · Crie um arquivo .env na raiz.
+   · Adicione as chaves necessárias.
+4. Execute o servidor de desenvolvimento: npm run dev.
+5. Para gerar a versão de produção: npm run build.
 
 ---
-[Voltar ao início](https://github.com/seu-usuario/seu-repositorio)
+
+[Voltar ao início]
+(https://github.com/unsVolts/portfolio-gustavo-oliveira-castro)
