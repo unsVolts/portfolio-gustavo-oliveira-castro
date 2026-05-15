@@ -14,12 +14,63 @@ Molda Forma é uma ferramenta criativa para gerar e personalizar formas orgânic
 
 A proposta foi ir além da replicação: inovar utilizando IA como copiloto de desenvolvimento e Firebase como infraestrutura escalável. O resultado é uma aplicação que não só recria a lógica de geração de blobs, mas também oferece:
 
-* Modos Orgânico e Geométrico (polígonos e estrelas)
-* Sistema de padrões e texturas (listras, pontos, xadrez, ondas, ruído)
+* **Replica**
+![replica](./images/image1.png)
+
+* **Produto Minimo Viável (MVP)**
+  
+* **Modos Orgânico e Geométrico (polígonos e estrelas)**
+* orgânico
+![organico](./images/image2.png)
+controles organico
+![controles organico](./images/image3.png)
+geométrico (polígono)
+![geométrico polígono](./images/image4.png)
+controles polígono 
+![controles polígono](./images/image5.png)
+geométrico (estrelas)
+![geométrico estrelas](./images/image6.png)
+controles estrelas
+![controles estrelas](./images/image7.png)
+  
+* **Sistema de padrões e texturas (listras, pontos, xadrez, ondas)**
+* listras
+![listras](./images/image8.png)
+pontos
+![pontos](./images/image9.png)
+xadrez
+![xadrez](./images/image10.png)
+ondas
+![ondas](./images/image11.png)
+controles textura
+![controles textura](./images/image12.png)
+  
 * Geração por IA via Google Gemini – basta descrever o que você quer
+* prompt 1
+![prompt1](./images/image13.png)
+prompt 2
+![prompt2](./images/image14.png)
+  
 * Autenticação e salvamento na nuvem (Firebase Auth + Firestore)
+  
 * Acessibilidade (alto contraste e filtros para daltonismo)
+* menu de acessibilidade
+![menu](./images/image15.png)
+acessibilidade desligada
+![desligado](./images/image16.png)
+alto contrastre ligado
+![alto contraste](./images/image17.png)
+filtro de protonopia ligado
+![protonopia](./images/image18.png)
+filtro de deuteranopia ligado
+![deuteranopia](./images/image19.png)
+filtro de tritanopia ligado
+![tritanopia](./images/image20.png)
+filtro de acromatopsia
+![acromatopsia](./images/image21.png)
+
 * Exportação em SVG e PNG
+![exportação e salvamento em nuvem](./images/image22.png)
 
 ---
 
