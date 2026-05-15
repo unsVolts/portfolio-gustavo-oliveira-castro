@@ -16,19 +16,21 @@ A proposta foi ir além da replicação: inovar utilizando IA como copiloto de d
 
 * **Replica**
 ![replica](./images/image1.png)
+a base do projeto antes de se tornar um MVP
 
 * **Produto Minimo Viável (MVP)**
+segue abaixo o novo visual e funcionalidades do projeto
   
 * **Modos Orgânico e Geométrico (polígonos e estrelas)**
-* orgânico
+* modo orgânico
 ![organico](./images/image2.png)
 controles organico
 ![controles organico](./images/image3.png)
-geométrico (polígono)
+modo geométrico (polígono)
 ![geométrico polígono](./images/image4.png)
 controles polígono 
 ![controles polígono](./images/image5.png)
-geométrico (estrelas)
+modo geométrico (estrelas)
 ![geométrico estrelas](./images/image6.png)
 controles estrelas
 ![controles estrelas](./images/image7.png)
