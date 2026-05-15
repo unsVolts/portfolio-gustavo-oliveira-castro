@@ -1,4 +1,4 @@
-🎨 Molda Forma
+**🎨 Molda Forma**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -8,7 +8,7 @@
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 
-📝 Descrição do Projeto
+**📝 Descrição do Projeto**
 
 Molda Forma é uma ferramenta criativa para gerar e personalizar formas orgânicas e geométricas no formato SVG. O projeto nasceu como um exercício de engenharia reversa do Blobmaker, evoluindo para um produto autoral com diferenciais competitivos.
 
@@ -24,59 +24,76 @@ segue abaixo o novo visual e funcionalidades do projeto
 * **Modos Orgânico e Geométrico (polígonos e estrelas)**
 * modo orgânico
 ![organico](./images/image2.png)
-controles organico
+
+* controles do modo organico
 ![controles organico](./images/image3.png)
-modo geométrico (polígono)
+
+* modo geométrico (polígono)
 ![geométrico polígono](./images/image4.png)
-controles polígono 
+
+* controles do polígono 
 ![controles polígono](./images/image5.png)
-modo geométrico (estrelas)
+
+* modo geométrico (estrelas)
 ![geométrico estrelas](./images/image6.png)
-controles estrelas
+
+* controles da estrela
 ![controles estrelas](./images/image7.png)
   
 * **Sistema de padrões e texturas (listras, pontos, xadrez, ondas)**
-* listras
+*listras
 ![listras](./images/image8.png)
-pontos
+
+* pontos
 ![pontos](./images/image9.png)
-xadrez
+
+* xadrez
 ![xadrez](./images/image10.png)
-ondas
+
+* ondas
 ![ondas](./images/image11.png)
-controles textura
+
+* controles de textura
 ![controles textura](./images/image12.png)
   
-* Geração por IA via Google Gemini – basta descrever o que você quer
+* **Geração por IA via Google Gemini – basta descrever o que você quer**
 * prompt 1
 ![prompt1](./images/image13.png)
-prompt 2
+
+* prompt 2
 ![prompt2](./images/image14.png)
   
-* Autenticação e salvamento na nuvem (Firebase Auth + Firestore)
+* **Autenticação e salvamento na nuvem (Firebase Auth + Firestore)**
   
-* Acessibilidade (alto contraste e filtros para daltonismo)
-* menu de acessibilidade
+* **Acessibilidade (alto contraste e filtros para daltonismo)**
+
+*menu de acessibilidade
 ![menu](./images/image15.png)
-acessibilidade desligada
+
+* acessibilidade desligada
 ![desligado](./images/image16.png)
-alto contrastre ligado
+
+* alto contrastre ligado
 ![alto contraste](./images/image17.png)
-filtro de protonopia ligado
+
+* filtro de protonopia ligado
 ![protonopia](./images/image18.png)
-filtro de deuteranopia ligado
+
+* filtro de deuteranopia ligado
 ![deuteranopia](./images/image19.png)
-filtro de tritanopia ligado
+
+* filtro de tritanopia ligado
 ![tritanopia](./images/image20.png)
-filtro de acromatopsia
+
+* filtro de acromatopsia
 ![acromatopsia](./images/image21.png)
 
-* Exportação em SVG e PNG
+* **Exportação em SVG, PNG e salvamento em nuvem**
 ![exportação e salvamento em nuvem](./images/image22.png)
 
 ---
 
-🚀 Tecnologias Utilizadas
+**🚀 Tecnologias Utilizadas**
 
 * **React 19 + TypeScript 5.8 –** interface declarativa e tipagem estática
 * **Vite 6 –** build e desenvolvimento ultrarrápido
@@ -88,7 +105,7 @@ filtro de acromatopsia
 
 ---
 
-📊 Funcionalidades e Diferenciais (Além do Blobmaker original)
+**📊 Funcionalidades e Diferenciais (Além do Blobmaker original)**
 
 O projeto implementa 4+ recursos inovadores que não existiam na ferramenta de referência:
 
@@ -109,7 +126,7 @@ Além disso, mantém todas as funcionalidades clássicas:
 
 ---
 
-🔧 Como Executar
+**🔧 Como Executar**
 
 1. Clone o repositório.
 2. Instale as dependências: npm install.
