@@ -9,7 +9,7 @@
 
 📝 Descrição do Projeto
 
-Blobmaker é uma aplicação web interativa desenvolvida como exercício de engenharia reversa do aplicativo original Blobmaker. O objetivo foi recriar a lógica de geração de formas orgânicas do tipo blob – aquelas formas suaves, irregulares e com aspecto orgânico – oferecendo controles precisos sobre número de vértices, complexidade, suavidade, cores e estilos visuais.
+Blobmaker é uma aplicação web interativa desenvolvida como exercício de engenharia reversa do aplicativo original de mesmo nome. O objetivo foi recriar a lógica de geração de formas orgânicas do tipo blob – aquelas formas suaves, irregulares e com aspecto orgânico – oferecendo controles precisos sobre número de vértices, complexidade, suavidade, cores e estilos visuais.
 
 ---
 
