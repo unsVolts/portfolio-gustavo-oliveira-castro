@@ -11,7 +11,7 @@
 ### 👨‍💻 Sobre
 Atualmente cursando o 7º período de Ciência da Computação na Universidade da Cidade de São Paulo. Sou apaixonado por resolver problemas através da tecnologia e possuo foco em [Desenvolvimento Backend / Front-end/Análise de Dados/Suporte técnico].
  
-* **Habilidades Técnicas:** Python, C, HTML, Java, SQL.
+* **Habilidades Técnicas:** Python, C, HTML, CSS, Java, SQL, PHP.
 * **Habilidades Socioemocionais:** Trabalho em equipe, comunicação assertiva e pensamento crítico.
 
 ---
