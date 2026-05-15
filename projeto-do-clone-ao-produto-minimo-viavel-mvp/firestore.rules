@@ -1,0 +1,100 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: users
+    // Document ID: {userId}
+    // Fields:
+    //   - uid: string (required)
+    //   - email: string (required, email format)
+    //   - displayName: string (optional)
+    //   - photoURL: string (optional, url format)
+    //   - createdAt: timestamp (required)
+    //
+    // Collection: blobs
+    // Document ID: {blobId}
+    // Fields:
+    //   - id: string (required)
+    //   - uid: string (required)
+    //   - name: string (optional)
+    //   - path: string (required)
+    //   - color: string (required, hex format)
+    //   - complexity: number (optional)
+    //   - contrast: number (optional)
+    //   - seed: number (optional)
+    //   - createdAt: timestamp (required)
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isDocOwner() {
+      return isAuthenticated() && request.auth.uid == resource.data.uid;
+    }
+
+    function isValidEmail(email) {
+      return email is string && email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+    }
+
+    function isValidColor(color) {
+      return color is string && color.matches("^#[0-9a-fA-F]{3,6}$");
+    }
+
+    // Domain Validators
+    
+    function isValidUser(data) {
+      return data.keys().hasAll(['uid', 'email', 'createdAt']) &&
+             data.uid == request.auth.uid &&
+             isValidEmail(data.email) &&
+             data.createdAt is timestamp;
+    }
+
+    function isValidBlob(data) {
+      return data.keys().hasAll(['uid', 'path', 'color', 'createdAt']) &&
+             data.uid == request.auth.uid &&
+             data.path is string &&
+             data.path.size() < 10000 &&
+             isValidColor(data.color) &&
+             data.createdAt is timestamp;
+    }
+
+    // ===============================================================
+    // Rules
+    // ===============================================================
+
+    match /users/{userId} {
+      allow read: if isOwner(userId);
+      allow create: if isOwner(userId) && isValidUser(request.resource.data);
+      allow update: if isOwner(userId) && isValidUser(request.resource.data) && 
+                      request.resource.data.uid == resource.data.uid &&
+                      request.resource.data.createdAt == resource.data.createdAt;
+    }
+
+    match /blobs/{blobId} {
+      allow read: if isDocOwner();
+      allow create: if isAuthenticated() && isValidBlob(request.resource.data);
+      allow update: if isDocOwner() && isValidBlob(request.resource.data) &&
+                      request.resource.data.uid == resource.data.uid &&
+                      request.resource.data.createdAt == resource.data.createdAt;
+      allow delete: if isDocOwner();
+    }
+
+    // Default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
