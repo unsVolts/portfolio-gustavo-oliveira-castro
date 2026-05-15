@@ -1,15 +1,18 @@
 🎨 Blobmaker
 
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
+https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white
 
 📝 Descrição do Projeto
 
-Blobmaker é uma aplicação web interativa desenvolvida como exercício de engenharia reversa do aplicativo original de mesmo nome. O objetivo foi recriar a lógica de geração de formas orgânicas do tipo blob – aquelas formas suaves, irregulares e com aspecto orgânico – oferecendo controles precisos sobre número de vértices, complexidade, suavidade, cores e estilos visuais.
+Blobmaker é uma aplicação web interativa desenvolvida como um exercício completo de engenharia reversa do famoso aplicativo Blobmaker. O projeto foi criado com o auxílio de IA no Google AI Studio, onde o objetivo era analisar o comportamento do Blobmaker original e recriar sua lógica de geração de formas orgânicas do tipo blob – aquelas formas suaves, irregulares e com aspecto fluido.
+
+Utilizando prompts inteligentes e refinamento iterativo no AI Studio, a IA ajudou a construir a matemática por trás da geração de vértices, o cálculo de curvas suaves (através de splines ou interpolação), e a interface de controles em tempo real. O resultado é um clone funcional e fiel, com personalização de cores, gradientes, exportação SVG e modo aleatório.
+
+Este projeto demonstra como ferramentas de IA generativa podem acelerar o processo de engenharia reversa e replicação de interações visuais complexas.
 
 ---
 
@@ -54,4 +57,4 @@ Blobmaker é uma aplicação web interativa desenvolvida como exercício de enge
 ---
 
 [Voltar ao início]
-(https://github.com/unsVolts/portfolio-gustavo-oliveira-castro)
+(https://github.com/unsVolts/portfolio-gustavo-oliveira-castro/tree/main)
