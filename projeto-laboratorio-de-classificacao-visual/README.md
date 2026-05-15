@@ -16,6 +16,12 @@ Foram criadas duas classes:
 
 Ao testar o modelo com uma pessoa que não se encaixa nesses estereótipos (ex: homem com camiseta, mulher de terno, etc.), o classificador produz erros de inferência (falsos positivos/negativos), comprovando o viés embutido.
 
+* **Exemplo 1**
+![Exemplo1](./images/image1.png)
+
+* **Exemplo 2**
+![Exemplo2](./images/image2.png)
+
 ⚠️ Propósito educacional: demonstrar a importância de datasets diversos e representativos para evitar discriminação algorítmica.
 
 ---
