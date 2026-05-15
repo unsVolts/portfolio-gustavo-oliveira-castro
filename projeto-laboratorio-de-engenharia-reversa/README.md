@@ -18,29 +18,31 @@ Este projeto demonstra como ferramentas de IA generativa podem acelerar o proces
 
 🚀 Tecnologias Utilizadas
 
-· React 19 + TypeScript 5.8 – interface declarativa e tipagem estática
-· Vite 6 – build e desenvolvimento ultrarrápido
-· TailwindCSS 4 – estilização utilitária moderna
-· Framer Motion – animações fluidas
-· Lucide React – ícones leves
-· clsx + tailwind-merge – composição de classes condicionais
+* **React 19 + TypeScript 5.8 –** interface declarativa e tipagem estática
+* **Vite 6 –** build e desenvolvimento ultrarrápido
+* **TailwindCSS 4 –** estilização utilitária moderna
+* **Framer Motion –** animações fluidas
+* **Lucide React –** ícones leves
+* **clsx + tailwind-merge –** composição de classes condicionais
 
 ---
 
 📊 Funcionalidades e Diferenciais
 
-· Geração de formas blob em tempo real
-    Sliders para controle de número de vértices, irregularidade e suavidade – atualização instantânea.
-· Personalização completa de cores
-    Preenchimento sólido, gradientes lineares/radiais e cor da borda.
-· Exportação SVG
-    Copia o código SVG para a área de transferência ou faz download do arquivo .svg.
-· Modo aleatório
-    Botão que randomiza todos os parâmetros da forma, gerando blobs únicos a cada clique.
-· Design responsivo e animado
-    Interface adaptada para mobile/desktop com microinterações suaves.
-· Código limpo e tipado
-    Todo o projeto escrito em TypeScript, com componentes reutilizáveis e lógica de desenho SVG modular.
+Todo o desenvolvimento foi realizado com o compromisso de manter alta fidelidade visual e funcional em relação ao Blobmaker original, reproduzindo não apenas a estética, mas também a fluidez dos controles e a precisão matemática das formas.
+
+* **Geração de formas blob em tempo real**
+    Sliders para controle de número de vértices, irregularidade e suavidade – atualização instantânea, idêntica ao comportamento do aplicativo de referência.
+* **Personalização completa de cores**
+    Preenchimento sólido, gradientes lineares/radiais e cor da borda, com pré-visualização imediata, replicando fielmente as opções do original.
+* **Exportação SVG**
+    Copia o código SVG para a área de transferência ou faz download do arquivo .svg, mantendo a mesma estrutura de saída do Blobmaker original.
+* **Modo aleatório**
+    Botão que randomiza todos os parâmetros da forma, gerando blobs únicos a cada clique – funcionalidade presente no app original e preservada na íntegra.
+* **Design responsivo e animado**
+    Interface adaptada para mobile/desktop com microinterações suaves, garantindo a mesma experiência de uso em qualquer dispositivo.
+* **Código limpo e tipado**
+    Todo o projeto escrito em TypeScript, com componentes reutilizáveis e lógica de desenho SVG modular, assegurando que a fidelidade visual seja mantida mesmo com alterações futuras.
 
 ---
 
