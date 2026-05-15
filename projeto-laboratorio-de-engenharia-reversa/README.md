@@ -14,6 +14,12 @@ Utilizando prompts inteligentes e refinamento iterativo no AI Studio, a IA ajudo
 
 Este projeto demonstra como ferramentas de IA generativa podem acelerar o processo de engenharia reversa e replicação de interações visuais complexas.
 
+* **Original**
+![blobmaker](./images/image1.png)
+
+* **Replica**
+![replicado](./images/image2.png)
+
 ---
 
 🚀 Tecnologias Utilizadas
